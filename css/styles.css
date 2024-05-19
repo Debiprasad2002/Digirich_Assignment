@@ -1,0 +1,120 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, #CF58AA, #CB5EB9, #A41B75, #831748, #11060F);
+}
+
+/* Navbar */
+.gradient-navbar {
+    background: linear-gradient(90deg, #58c7cf, #5ecba1, #1b84a4);
+    transition: background-color 0.3s;
+}
+.navbar a {
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffcccb;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+}
+
+.footer-social-icons a {
+    transition: transform 0.3s, color 0.3s;
+}
+
+.footer-social-icons a:hover {
+    transform: scale(1.1);
+    color: #ffcccb;
+}
+
+/* Button Hover Effect */
+.btn-primary {
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Animation */
+.fade-in {
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Search Bar */
+.search-bar {
+    position: relative;
+    width: 300px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #CB5EB9;
+    border-radius: 5px;
+}
+
+/* Product Cards */
+.product-cards .card {
+    height: 100%;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-cards .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-cards .card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+
+
+/* Gradient backgrounds for different pages */
+.about-bg {
+    background: linear-gradient(to bottom right, #0100EC, #FB36F4);
+    color: white;
+}
+
+.procedures-bg {
+    background: linear-gradient(135deg, #A41B75, #831748);
+    color: white;
+}
+
+.products-bg {
+    background: linear-gradient(135deg, #831748, #11060F);
+    color: white;
+}
+
+.celebs-bg {
+    background: linear-gradient(135deg, #11060F, #CF58AA);
+    color: white;
+}
+
+.launches-bg {
+    background: linear-gradient(135deg, #CB5EB9, #A41B75);
+    color: white;
+}
